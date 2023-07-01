@@ -1,10 +1,18 @@
 <template>
-
+<NavbarVue />
 </template>
 
-<style>
+<script>
+import NavbarVue from './components/Navbar.vue'
+  export default {
+    components: {
+      NavbarVue
+    }
+  }
+</script>
+
+<style scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&family=Roboto+Mono&display=swap");
+
+*,
+*::after,
+*::before {
+    text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+  font-family: "Roboto Mono";
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid lightseagreen;
+}
+
+.navbar-toggler:hover {
+    color: lightblue;
+    background-color: lightseagreen;
+}
+
+.bg-body-tertiary {
+    background-color: lightskyblue !important;
+}
