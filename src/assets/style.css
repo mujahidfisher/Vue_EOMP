@@ -30,3 +30,14 @@
 .bg-body-tertiary {
     background-color: lightskyblue !important;
 }
+
+.social-icon {
+    width: 30px;
+    margin: 10px;
+}
+
+.top-container {
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 20px;
+}
