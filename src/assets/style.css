@@ -11,7 +11,7 @@
   font-family: "Roboto Mono";
 }
 
-.back {
+#app {
     background-image: url("https://i.postimg.cc/pLtTbt3c/note-thanun-g-Qekwa7-JK0k-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -42,10 +42,11 @@
     width: 20px;
     margin: 10px;
     margin-top: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
-.footer {
-    border: 2px black solid;
+.social-icon:hover {
+    transform: scale(1.5);
 }
 
 .top-container {
@@ -113,7 +114,7 @@ h6 {
         margin-bottom: 0px;
     }
 
-    .back {
+    #app {
         background-image: url("https://i.postimg.cc/WzG87TPQ/note-thanun-g-Qekwa7-JK0k-unsplash.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -140,7 +141,7 @@ h6 {
 
 .title {
     color: black;
-    width: 8rem;
+    width: 10rem;
     animation: typing 2s steps(10), effect .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -168,8 +169,59 @@ h6 {
     border-radius: 30px;
 }
 
-.join:focus {
+.join:hover {
     box-shadow: 0px 0px 0px;
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.join:focus {
+    cursor: progress;
+}
+
+.form {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    width: 20rem;
+    margin-bottom: 70px;
+}
+
+.title-1 {
+    margin: 20px;
+}
+
+.btn {
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 10px 10px 2px rgba(0,0,0,0.2);
+}
+
+.form-control {
+    margin: 8px;
+    border: 2px lightseagreen solid;
+    text-align: left;
+    box-shadow: 10px 10px 2px rgba(0,0,0,0.2);
+}
+
+.btn:focus {
+    cursor: progress;
+}
+
+.btn {
+    box-shadow: 0px 0px 20px lightseagreen;
+    outline: 1px solid;
+    outline-color: lightseagreen;
+    transition: 1500ms;
+  } 
+  
+  .btn:hover {
+    box-shadow: 0px 0px 20px lightseagreen, 0 0 20px lightblue;
+    outline-color: lightskyblue;
+    outline-offset: 15px;
+    text-shadow: lightseagreen; 
+  }
