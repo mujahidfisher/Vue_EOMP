@@ -1,10 +1,10 @@
 <template>
-    <div class="container">
         <div class="footer">
             <div class="top-container">
                 <h5>Copyright &copy; Mujahid Fisher</h5>
+                <hr>
             </div>
-            <hr>
+            
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
@@ -20,13 +20,12 @@
                         <h6 class="email-address">fishermujahid@gmail.com</h6>
                         <h6>3 Clyde Street, Woodstock, Cape Town</h6>
                     </div>
+                    <div class="bottom-container">
+                        <h6>2023</h6>
+                    </div>
                 </div>
             </div>
-            <div class="bottom-container">
-                <h6>2023</h6>
-            </div>
         </div>
-    </div>
 </template>
 
 <script>
