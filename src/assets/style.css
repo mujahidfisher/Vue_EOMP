@@ -225,3 +225,19 @@ h6 {
     outline-offset: 15px;
     text-shadow: lightseagreen; 
   }
+
+  .body-card {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    height: 18rem;
+  }
