@@ -1,21 +1,14 @@
 <template>
-  <div>
-    <div
-      class="card"
-      v-for="project in projects" 
-      :key="project.img"
-      style="width: 18rem"
-    >
-      <img :src="project.img" class="card-img-top" alt="img" />
-      <!-- <div class="card-body">
-        <h5 class="card-title">{{ testcards.name }}</h5>
-        <p class="card-text">"{{ testcards.testimony }}"</p>
-        <div class="card-footer">
-          <i>{{ testcards.sign }}</i>
-        </div>
-      </div> -->
-    </div>
-  </div>
+        <div v-for="project in projects" class="card mb-3, card-projects" :key="project.img">
+            <img :src="project.img" class="card-img-top" alt="projects">
+            <div class="card-body">
+              <p class="card-text">{{ project.desc }}</p>
+              <p class="card-text">Netify Link:</p>
+              <p class="card-text">{{ project.site }}<small class="text-body-secondary"></small></p>
+              <p class="card-text">Github Link:</p>
+              <p class="card-text"><a>{{ project.gitlink }}</a><small class="text-body-secondary"></small></p>
+            </div>
+          </div>
 </template>
 
 <script>

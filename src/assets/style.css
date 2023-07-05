@@ -264,3 +264,96 @@ h6 {
 		transform: scale(0.9);
 	}
 }
+
+
+.card-projects {
+    margin: 10rem;
+    box-shadow: 10px 10px 2px rgba(0,0,0,0.2);
+}
+
+.title-3 {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-projects {
+        margin: 5rem;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .card-projects {
+        margin: 2rem;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 433px) {
+    .top-info {
+        flex-direction: column
+    }
+    .profile {
+        margin: auto;
+    }
+
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 {
+    margin: 10px;
+    height: 100vh;
+}
+
+.profile {
+    height: 20rem;
+    display: flex;
+    justify-content: start !important;
+    border-radius: 20px;
+}
+
+.section-2 {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-4 {
+    margin: 20px;
+}
+
+.card-educ {
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px rgba(0,0,0,0.2);
+    margin-left: 30%;
+}
+
+.img-fluid-school {
+    height: 12rem;
+    width: 12rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card-educ {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .card-educ {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card-educ {
+        margin-left: 0%;
+    }
+    .profile {
+        margin-top: 50px;
+    }
+}
