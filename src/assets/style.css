@@ -357,3 +357,48 @@ h6 {
         margin-top: 50px;
     }
 }
+
+.ban1, .ban2, .ban3, .ban4 {
+    background-color: rgba(0, 255, 255, 0.167);
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px lightseagreen, 0 0 20px lightblue;
+    outline-color: lightskyblue;
+    outline-offset: 15px;
+    text-shadow: lightseagreen;
+}
+
+p {
+    margin: auto ;
+    padding: 10px;
+}
+
+.ban4 {
+    margin-bottom: 100px;
+}
+
+.iconics {
+    width: 50px;
+    height: 50px;
+}
+
+.boxy {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .boxy {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+}
+
