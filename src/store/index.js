@@ -4,7 +4,8 @@ export default createStore({
   state: {
     testcards: null,
     myInfo: null,
-    projects: null
+    projects: null,
+    education: null
   },
   getters: {
   },
@@ -19,10 +20,24 @@ export default createStore({
     setProjects(state, projects)
     {
       state.projects = projects
+    },
+    setEducation(state, education) {
+      state.education = education
     }
   },
   actions: {
-    async FetchMyInfo(context) {
+    async fetchEducation(context) {
+      try{
+        let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
+        let { education } = await
+        response.json()
+        console.log(education);
+        context.commit("setEducation", education)
+      }catch(e) {
+        console.log("nothing");
+      }
+    },
+    async fetchMyInfo(context) {
       try{
         let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
         let { myInfo } = await
