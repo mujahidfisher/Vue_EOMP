@@ -7,13 +7,18 @@ export default createStore({
     projects: null,
     education: null,
     skills: null,
-    qualifications: null
+    qualifications: null,
+    codingProgress: null,
+    interests: null
   },
   getters: {
   },
   mutations: {
     setTestimonials(state, testcards) {
       state.testcards = testcards
+    },
+    setInterests(state, interest) {
+      state.interests = interest
     },
     setMyInfo(state, myInfo)
     {
@@ -31,9 +36,32 @@ export default createStore({
     },
     setQualifications(state, qualifications) {
       state.qualifications = qualifications
+    },
+    setCodingProgress(state, codingProgress) {
+      state.codingProgress = codingProgress
     }
   },
   actions: {
+    async fetchInterests(context) {
+      try{
+        let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
+        let { interests } = await
+        response.json()
+        context.commit("setInterests", interests)
+      }catch(e) {
+        console.log("nothing");
+      }
+    },
+    async fetchCodingProgress(context) {
+      try{
+        let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
+        let { codingProgress } = await
+        response.json()
+        context.commit("setCodingProgress", codingProgress)
+      }catch(e) {
+        console.log("nothing");
+      }
+    },
     async fetchQualifications(context) {
       try{
         let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
