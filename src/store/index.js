@@ -5,7 +5,9 @@ export default createStore({
     testcards: null,
     myInfo: null,
     projects: null,
-    education: null
+    education: null,
+    skills: null,
+    qualifications: null
   },
   getters: {
   },
@@ -23,15 +25,40 @@ export default createStore({
     },
     setEducation(state, education) {
       state.education = education
+    },
+    setSkills(state, skills) {
+      state.skills = skills
+    },
+    setQualifications(state, qualifications) {
+      state.qualifications = qualifications
     }
   },
   actions: {
+    async fetchQualifications(context) {
+      try{
+        let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
+        let { qualifications } = await
+        response.json()
+        context.commit("setQualifications", qualifications)
+      }catch(e) {
+        console.log("nothing");
+      }
+    },
+    async fetchSkills(context) {
+      try{
+        let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
+        let { skills } = await
+        response.json()
+        context.commit("setSkills", skills)
+      }catch(e) {
+        console.log("nothing");
+      }
+    },
     async fetchEducation(context) {
       try{
         let response = await fetch ("https://mujahidfisher.github.io/Vue_EOMP_Json-server/data.Json")
         let { education } = await
         response.json()
-        console.log(education);
         context.commit("setEducation", education)
       }catch(e) {
         console.log("nothing");
