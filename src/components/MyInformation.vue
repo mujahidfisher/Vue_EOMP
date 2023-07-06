@@ -3,6 +3,9 @@
     <h1>Resume</h1>
     <h2>{{ myInfo.myname }}</h2>
     <p>{{ myInfo.myoccupation }}</p>
+    <a href="https://drive.google.com/file/d/1MNkMA2FcxVWUjbl4DY5RNa7oawudk2Cu/view?usp=sharing" download rel="noopener noreferrer" target="_blank">
+      <button class="my-cv">Download My CV</button>
+   </a>
     <div class="top-info">
         <img class="profile" :src="myInfo.myprofilepic" alt="img"/>
         <div class="information">
