@@ -4,6 +4,7 @@ import ContactView from "@/views/ContactView.vue"
 import ProjectsView from "@/views/ProjectsView.vue"
 import ResumeView from "@/views/ResumeView.vue"
 import TestimonialsView from "@/views/TestimonialsView.vue"
+import AboutView from "@/views/AboutView.vue"
 
 const routes = [
   {
@@ -31,7 +32,11 @@ const routes = [
     name: "testimonials",
     component: TestimonialsView
   },
-
+  {
+    path: "/about",
+    name: "about",
+    component: AboutView
+  },
 ]
 
 const router = createRouter({
