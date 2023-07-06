@@ -456,7 +456,7 @@ p {
 
 @media only screen and (width < 425px) {
   .go-up {
-    margin-top: 500px;
+    display: none;
   }
 }
 
