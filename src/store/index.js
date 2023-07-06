@@ -49,7 +49,7 @@ export default createStore({
         response.json()
         context.commit("setInterests", interests)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     },
     async fetchCodingProgress(context) {
@@ -59,7 +59,7 @@ export default createStore({
         response.json()
         context.commit("setCodingProgress", codingProgress)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     },
     async fetchQualifications(context) {
@@ -69,7 +69,7 @@ export default createStore({
         response.json()
         context.commit("setQualifications", qualifications)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     },
     async fetchSkills(context) {
@@ -79,7 +79,7 @@ export default createStore({
         response.json()
         context.commit("setSkills", skills)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     },
     async fetchEducation(context) {
@@ -89,7 +89,7 @@ export default createStore({
         response.json()
         context.commit("setEducation", education)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     },
     async fetchMyInfo(context) {
@@ -99,7 +99,7 @@ export default createStore({
         response.json()
         context.commit("setMyInfo", myInfo)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     },
     async fetchTestimonials(context) {
@@ -108,7 +108,7 @@ export default createStore({
         let { testcards } = await response.json()
         context.commit("setTestimonials", testcards)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     },
     async fetchProjects(context) {
@@ -117,7 +117,7 @@ export default createStore({
         let { projects } = await response.json()
         context.commit("setProjects", projects)
       }catch(e) {
-        console.log("nothing");
+        document.write("this page is not responding reload")
       }
     }
   },
