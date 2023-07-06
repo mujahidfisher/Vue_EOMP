@@ -4,9 +4,9 @@
             <div class="card-body">
               <p class="card-text">{{ project.desc }}</p>
               <p class="card-text">Netify Link:</p>
-              <p class="card-text">{{ project.site }}<small class="text-body-secondary"></small></p>
+              <p class="card-text"><a :href="project.site">{{ project.site }}</a><small class="text-body-secondary"></small></p>
               <p class="card-text">Github Link:</p>
-              <p class="card-text"><a>{{ project.gitlink }}</a><small class="text-body-secondary"></small></p>
+              <p class="card-text"><a :href="project.gitlink">{{ project.gitlink }}</a><small class="text-body-secondary"></small></p>
             </div>
           </div>
 </template>

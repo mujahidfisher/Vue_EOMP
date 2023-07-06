@@ -1,5 +1,5 @@
 <template>
-    <div class="title-4">
+    <div id="education" class="title-4">
         <h1>Education History</h1>
     </div>
   <div v-for="educ in education" class="section-2" :key="educ.year">

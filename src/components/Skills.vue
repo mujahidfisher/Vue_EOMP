@@ -1,5 +1,5 @@
 <template>
-    <div v-for="skills in skills" class="section-3" :key="skills.first">
+    <div id="skills" v-for="skills in skills" class="section-3" :key="skills.first">
         <h1 
         class="title-5"  >Skills</h1>
         <p class="sub-header">These are skills besides coding that Iv picked up along the way.{{ skills.desc }}</p>

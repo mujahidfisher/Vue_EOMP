@@ -35,7 +35,7 @@
 }
 
 .bg-body-tertiary {
-  background-color: lightskyblue !important;
+  background-color: rgba(135, 206, 250, 0.607) !important;
 }
 
 .social-icon {
@@ -50,7 +50,7 @@
 }
 
 .top-container {
-  background-color: lightseagreen;
+  background-color: rgba(32, 178, 171, 0.603);
   padding: 5px;
 }
 
@@ -62,11 +62,11 @@
 }
 
 .col {
-  background-color: lightskyblue;
+  background-color: rgba(135, 206, 250, 0.607);
 }
 
 .bottom-container {
-  background-color: lightseagreen;
+  background-color: rgba(32, 178, 171, 0.605);
 }
 
 h6 {
@@ -96,7 +96,7 @@ h6 {
   margin-top: 20px;
 }
 
-@media only screen and (width < 425px) {
+@media only screen and (width < 426px) {
   .home-body {
     display: flex;
     flex-direction: column-reverse;
@@ -285,7 +285,7 @@ h6 {
   }
 }
 
-@media only screen and (width < 433px) {
+@media only screen and (width < 460px) {
   .top-info {
     flex-direction: column;
   }
@@ -322,7 +322,7 @@ h6 {
 }
 
 .card-educ {
-  background-color: lightblue;
+  background-color: rgba(173, 216, 230, 0.612);
   border-radius: 20px;
   box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
   margin-left: 30%;
@@ -417,9 +417,50 @@ p {
 .icons-box {
     display: flex;
     justify-content: center;
+    box-sizing: border-box
 }
 
 .mythings {
     height: 30px;
     width: 30px;
+}
+
+@media only screen and (width < 320px) {
+  .icons-box {
+    display: flex;
+    flex-direction: column
+}
+}
+
+.title-6 {
+  margin-top: 50px;
+}
+
+.go-up {
+  position: fixed;
+  display: flex;
+  padding: 20px;
+  box-shadow: 0px 0px 20px lightseagreen;
+  outline: 1px solid;
+  outline-color: lightseagreen;
+  transition: 1500ms;
+  border-radius: 50%;
+}
+
+.go-up:hover {
+  box-shadow: 0px 0px 20px lightseagreen, 0 0 20px lightblue;
+  outline-color: lightskyblue;
+  outline-offset: 15px;
+  text-shadow: lightseagreen;
+}
+
+@media only screen and (width < 425px) {
+  .go-up {
+    margin-top: 500px;
+  }
+}
+
+.up-icon {
+  width: 40px;
+  height: 40px;
 }
