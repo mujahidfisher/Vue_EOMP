@@ -160,7 +160,6 @@ h6 {
 
 .join {
   font-size: 15px;
-  color: lightseagreen;
   width: 150px;
   height: 40px;
   background: whitesmoke;
@@ -473,4 +472,9 @@ input:required:invalid:focus {
 textarea:required:invalid:focus {
   border-color: #ff0000;
   background-color: #ab27273b;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(0, 213, 255) !important;
+  color: rgb(31, 30, 30) !important;
 }

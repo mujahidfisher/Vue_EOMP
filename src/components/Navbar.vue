@@ -13,7 +13,7 @@
               </li>
 
               <li class="nav-item dropdown">
-                <router-link to="/resume" class="nav-link dropdown-toggle text-info bg-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <router-link to="/resume" class="nav-link dropdown-toggle text-info bg-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 20px">
                   Resume
                 </router-link>
                 <ul class="dropdown-menu text-info bg-dark">
