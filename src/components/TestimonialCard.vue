@@ -1,7 +1,7 @@
 <template>
   <div class="body-card">
     <div
-      class="card"
+      class="card border-info"
       v-for="testcards in testcards"
       style="width: 18rem"
       :key="testcards.img"

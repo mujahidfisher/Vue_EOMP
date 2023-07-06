@@ -1,5 +1,5 @@
 <template>
-        <div v-for="project in projects" class="card mb-3, card-projects" :key="project.img">
+        <div v-for="project in projects" class="card text-bg-info mb-3, card-projects" :key="project.img">
             <img :src="project.img" class="card-img-top" alt="projects">
             <div class="card-body">
               <p class="card-text">{{ project.desc }}</p>
