@@ -1,5 +1,5 @@
 <template>
-    <h1>Interests</h1>
+    <h1 id="interests" class="title-6">Interests</h1>
     <div class="icons-box">
         
     <div class="interests" v-for="interests in interests" :key="interests.img">

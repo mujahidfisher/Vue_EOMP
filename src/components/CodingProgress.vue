@@ -1,5 +1,5 @@
 <template>
-  <h1>Coding Languages</h1>
+  <h1 id="coding">Coding Languages</h1>
     <div v-for="codingProgress in codingProgress" class="section-5" :key="codingProgress.img">
       <div class="icons-body">
         <img class="code-icon" :src="codingProgress.img" alt="icon">
