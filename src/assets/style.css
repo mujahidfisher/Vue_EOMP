@@ -582,10 +582,6 @@ textarea:required:invalid:focus {
   .card-img-top-ng {
     height: auto;
   }
-  .btn {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
 }
 
 .card-text-text {
