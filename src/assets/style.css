@@ -240,8 +240,9 @@ h6 {
   margin: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: stretch;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .card {
@@ -571,4 +572,22 @@ textarea:required:invalid:focus {
   color: lightseagreen !important;
   border-radius: 20px;
   transition: 1000ms;
+}
+
+.card-img-top-ng{
+  height: 18rem;
+}
+
+@media only screen and (width < 390px) {
+  .card-img-top-ng {
+    height: auto;
+  }
+  .btn {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.card-text-text {
+  height: 18rem;
 }

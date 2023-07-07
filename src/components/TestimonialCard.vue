@@ -1,15 +1,15 @@
 <template>
-  <div class="body-card">
+  <div class="body-card row-cols-lg-2 g-4">
     <div
       class="card border-info"
       v-for="testcards in testcards"
       style="width: 18rem"
       :key="testcards.img"
     >
-      <img :src="testcards.img" class="card-img-top" alt="img" loading="lazy">
+      <img :src="testcards.img" class="card-img-top-ng" alt="img" loading="lazy">
       <div class="card-body">
         <h5 class="card-title">{{ testcards.name }}</h5>
-        <p class="card-text">"{{ testcards.testimony }}"</p>
+        <p class="card-text-text  overflow-y-auto">"{{ testcards.testimony }}"</p>
         <div class="card-footer">
           <i>{{ testcards.sign }}</i>
         </div>
