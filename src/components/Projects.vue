@@ -1,6 +1,6 @@
 <template>
         <div data-aos="flip-up" data-aos-duration="1500" v-for="project in projects" class="card text-bg-info mb-3, card-projects" :key="project.img">
-            <img :src="project.img" class="card-img-top" alt="projects">
+            <img :src="project.img" class="card-img-top" alt="projects" loading="lazy">
             <div class="card-body">
               <p class="card-text">{{ project.desc }}</p>
               <p class="card-text">Netify Link:</p>

@@ -7,7 +7,7 @@
       <button v-wave class="my-cv">Download My CV</button>
    </a>
     <div class="top-info">
-        <img class="profile" :src="myInfo.myprofilepic" alt="img"/>
+        <img class="profile" :src="myInfo.myprofilepic" alt="img" loading="lazy">
         <div class="information">
             <h4>My Information:</h4>
             <p>{{ myInfo.mynumber }}</p>
@@ -16,7 +16,7 @@
             <p>{{ myInfo.mylanguages }}</p>
         </div>
     </div>
-    <a href="#top"><button class="btn btn-outline-info go-up"><img class="up-icon" src="https://i.postimg.cc/Yq8347DW/Up.png" alt="up-icon"></button></a>
+    <a href="#top"><button class="btn btn-outline-info go-up"><img class="up-icon" src="https://i.postimg.cc/Yq8347DW/Up.png" alt="up-icon" loading="lazy"></button></a>
   </div>
 </template>
 

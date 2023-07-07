@@ -15,7 +15,7 @@
         </svg></button></a>
       </div>
       <div class="pic">
-        <img src="https://i.postimg.cc/cLjjMmyG/20230702-164359.jpg" alt="profile" class="profilepic">
+        <img src="https://i.postimg.cc/cLjjMmyG/20230702-164359.jpg" alt="profile" class="profilepic" loading="lazy">
       </div>
     </div>
   </div>

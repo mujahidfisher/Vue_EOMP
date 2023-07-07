@@ -6,7 +6,7 @@
       style="width: 18rem"
       :key="testcards.img"
     >
-      <img :src="testcards.img" class="card-img-top" alt="img" />
+      <img :src="testcards.img" class="card-img-top" alt="img" loading="lazy">
       <div class="card-body">
         <h5 class="card-title">{{ testcards.name }}</h5>
         <p class="card-text">"{{ testcards.testimony }}"</p>

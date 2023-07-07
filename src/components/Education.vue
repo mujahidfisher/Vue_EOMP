@@ -6,7 +6,7 @@
     <div class="card-educ mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img :src="educ.img" class="img-fluid-school rounded-start" alt="institutions">
+            <img :src="educ.img" class="img-fluid-school rounded-start" alt="institutions" loading="lazy">
           </div>
           <div class="col-md-8">
             <div class="card-body">

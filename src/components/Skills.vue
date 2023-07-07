@@ -6,19 +6,19 @@
 
         <p data-aos="zoom-in" class="ban1">
             {{ skills.first }}
-            <img class="iconics" src="https://i.postimg.cc/FKxYPXmr/4284214.png" alt="mechanic">
+            <img class="iconics" src="https://i.postimg.cc/FKxYPXmr/4284214.png" alt="mechanic" loading="lazy">
         </p>
         <p data-aos="zoom-in" class="ban2">
             {{ skills.second }}
-            <img class="iconics" src="https://i.postimg.cc/Z5RpvRh8/1321802-200.png" alt="catering">
+            <img class="iconics" src="https://i.postimg.cc/Z5RpvRh8/1321802-200.png" alt="catering" loading="lazy">
         </p>
         <p data-aos="zoom-in" class="ban3">
             {{ skills.third }}
-            <img class="iconics" src="https://i.postimg.cc/cLpC1414/3047840.png" alt="gardening">
+            <img class="iconics" src="https://i.postimg.cc/cLpC1414/3047840.png" alt="gardening" loading="lazy">
         </p>
         <p data-aos="zoom-in" class="ban4">
             {{ skills.forth }}
-            <img class="iconics" src="https://i.postimg.cc/FH3mZbmN/5067194.png" alt="editor">
+            <img class="iconics" src="https://i.postimg.cc/FH3mZbmN/5067194.png" alt="editor" loading="lazy">
         </p>
     </div>
 

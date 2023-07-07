@@ -8,11 +8,11 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <a href="https://www.instagram.com/mujifish/"><img class="social-icon" src="https://i.postimg.cc/fyMq92Gr/instagram-1.png" alt="instagram"></a>
-                        <a href="https://www.facebook.com/mujahid.fisher.5/"><img class="social-icon" src="https://i.postimg.cc/vDFBhnvk/facebook.png" alt="facebook"></a>
-                        <a href="https://twitter.com/FisherMuj94016"><img class="social-icon" src="https://i.postimg.cc/ZY1F2Dst/twitter.png" alt="twitter"></a>
-                        <a href="https://www.linkedin.com/in/mujahid-fisher-387162262/"><img class="social-icon" src="https://i.postimg.cc/V6JnHjjk/linkedin.png" alt="linkedin"></a>
-                        <a href="https://github.com/mujahidfisher"><img class="social-icon" src="https://i.postimg.cc/8kWtpS6P/6214513-github-logo-icon.png" alt="github"></a>
+                        <a href="https://www.instagram.com/mujifish/"><img class="social-icon" src="https://i.postimg.cc/fyMq92Gr/instagram-1.png" alt="instagram" loading="lazy"></a>
+                        <a href="https://www.facebook.com/mujahid.fisher.5/"><img class="social-icon" src="https://i.postimg.cc/vDFBhnvk/facebook.png" alt="facebook" loading="lazy"></a>
+                        <a href="https://twitter.com/FisherMuj94016"><img class="social-icon" src="https://i.postimg.cc/ZY1F2Dst/twitter.png" alt="twitter" loading="lazy"></a>
+                        <a href="https://www.linkedin.com/in/mujahid-fisher-387162262/"><img class="social-icon" src="https://i.postimg.cc/V6JnHjjk/linkedin.png" alt="linkedin" loading="lazy"></a>
+                        <a href="https://github.com/mujahidfisher"><img class="social-icon" src="https://i.postimg.cc/8kWtpS6P/6214513-github-logo-icon.png" alt="github" loading="lazy"></a>
                     </div>
                     <div class="col">
                         <h5>My contacts:</h5>

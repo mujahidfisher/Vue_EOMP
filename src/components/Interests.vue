@@ -3,7 +3,7 @@
     <div class="icons-box">
         
     <div class="interests" v-for="interests in interests" :key="interests.img">
-        <img class="mythings" :src="interests.img" alt="interests">
+        <img class="mythings" :src="interests.img" alt="interests" loading="lazy">
         <p>{{ interests.desc }}</p>
     </div>
 </div>
