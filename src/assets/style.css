@@ -149,6 +149,7 @@ h6 {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
+  transition: 500ms;
 }
 
 @keyframes typing {
