@@ -18,11 +18,11 @@
                 </router-link>
                 <ul class="dropdown-menu text-info bg-dark">
                   <li><router-link to="/resume" class="dropdown-item text-info bg-dark">Resume Homepage</router-link></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="/resume/#education">Education</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="/resume/#skills">Skills</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="/resume/#qualifications">Qualifications</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="/resume/#coding">Coding Languages</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="/resume/#interests">Interests</a></li>
+                  <li><a class="dropdown-item text-info bg-dark" href="#education">Education</a></li>
+                  <li><a class="dropdown-item text-info bg-dark" href="#skills">Skills</a></li>
+                  <li><a class="dropdown-item text-info bg-dark" href="#qualifications">Qualifications</a></li>
+                  <li><a class="dropdown-item text-info bg-dark" href="#coding">Coding Languages</a></li>
+                  <li><a class="dropdown-item text-info bg-dark" href="#interests">Interests</a></li>
                 </ul>
               </li>
 
