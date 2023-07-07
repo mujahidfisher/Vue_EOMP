@@ -1,4 +1,5 @@
 <template>
+    <div id="skills"></div>
     <div id="skills" v-for="skills in skills" class="section-3" :key="skills.first">
         <h1 
         class="title-5"  >Skills</h1>

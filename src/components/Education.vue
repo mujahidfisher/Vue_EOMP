@@ -1,4 +1,5 @@
 <template>
+  <div id="education"></div>
     <div id="education" class="title-4">
         <h1>Education History</h1>
     </div>

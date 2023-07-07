@@ -1,4 +1,5 @@
 <template>
+    <div id="qualifications"></div>
     <div id="qualifications" v-for="qualifications in qualifications" class="section-4" :key="qualifications.matric">
         <h1>Qualifications</h1>
         <p>Since Im a school leaver I do not have much behind my name but I strive to change this.</p>

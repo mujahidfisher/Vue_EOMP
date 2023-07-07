@@ -1,4 +1,5 @@
 <template>
+  <div id="interests"></div>
     <h1 id="interests" class="title-6">Interests</h1>
     <div class="icons-box">
         

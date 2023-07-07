@@ -18,11 +18,16 @@
                 </router-link>
                 <ul class="dropdown-menu text-info bg-dark">
                   <li><router-link to="/resume" class="dropdown-item text-info bg-dark">Resume Homepage</router-link></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="#education">Education</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="#skills">Skills</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="#qualifications">Qualifications</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="#coding">Coding Languages</a></li>
-                  <li><a class="dropdown-item text-info bg-dark" href="#interests">Interests</a></li>
+
+                  <li><router-link to="/resume" exact v-scroll-to="{ el: '#education', offset: -50 }" class="dropdown-item text-info bg-dark">Education</router-link></li>
+
+                  <li><router-link to="/resume" exact v-scroll-to="{ el: '#skills', offset: -50 }" class="dropdown-item text-info bg-dark">Skills</router-link></li>
+
+                  <li><router-link to="/resume" exact v-scroll-to="{ el: '#qualifications', offset: -50 }" class="dropdown-item text-info bg-dark">Qualifications</router-link></li>
+
+                  <li><router-link to="/resume" exact v-scroll-to="{ el: '#coding', offset: -50 }" class="dropdown-item text-info bg-dark">Coding Languages</router-link></li>
+
+                  <li><router-link to="/resume" exact v-scroll-to="{ el: '#interests', offset: -50 }" class="dropdown-item text-info bg-dark">Interests</router-link></li>
                 </ul>
               </li>
 
