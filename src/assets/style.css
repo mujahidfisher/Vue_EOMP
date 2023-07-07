@@ -464,7 +464,11 @@ p {
   outline-color: lightseagreen;
   transition: 1500ms;
   border-radius: 50%;
+  margin: -20px;
+  margin-left: 10px;
 }
+
+
 
 .go-up:hover {
   box-shadow: 0px 0px 20px lightseagreen, 0 0 20px lightblue;
@@ -543,6 +547,12 @@ textarea:required:invalid:focus {
   .p1 {
     font-size: 20px;
   }
+  .title-4 {
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (width < 460px) {
   .title-4 {
     margin-top: 300px;
   }
