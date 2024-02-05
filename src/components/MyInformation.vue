@@ -16,7 +16,7 @@
             <p>{{ myInfo.mylanguages }}</p>
         </div>
     </div>
-    <a href="#top"><button class="btn btn-outline-info go-up"><img class="up-icon" src="https://i.postimg.cc/Yq8347DW/Up.png" alt="up-icon" loading="lazy"></button></a>
+    <a href="#top"><button class="btn btn-outline-info go-up"><img class="up-icon" src="https://i.postimg.cc/66GCNhVP/icons8-up-arrow-100.png" alt="up-icon" loading="lazy"></button></a>
   </div>
 </template>
 

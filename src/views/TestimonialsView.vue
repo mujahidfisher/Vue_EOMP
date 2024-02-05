@@ -1,8 +1,8 @@
 <template>
     <div class="headering">
-        <img class="quoters" src="https://i.postimg.cc/WbrTJKhf/images-removebg-preview-1.png" alt="Quotes" loading="lazy">
+        <img class="quoters" src="https://i.postimg.cc/hvdSXv4L/icons8-quotes-100.png" alt="Quotes" loading="lazy">
         <h1>Testimonials</h1>
-        <img class="quoters" src="https://i.postimg.cc/wMnxdY3D/images-removebg-preview-1.png" alt="Quotes" loading="lazy">
+        <img class="quoters" src="https://i.postimg.cc/hvdSXv4L/icons8-quotes-100.png" alt="Quotes" loading="lazy">
     </div>
 <TestimonialCard />
 </template>

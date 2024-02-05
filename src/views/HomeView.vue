@@ -15,7 +15,7 @@
         </svg></button></router-link>
       </div>
       <div class="pic">
-        <img src="https://i.postimg.cc/cLjjMmyG/20230702-164359.jpg" alt="profile" class="profilepic" loading="lazy">
+        <img src="../assets/Images/profile.jpg" alt="profile" class="profilepic" loading="lazy">
       </div>
     </div>
   </div>

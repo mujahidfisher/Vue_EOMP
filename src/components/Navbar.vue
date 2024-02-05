@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img class="logo" src="https://i.postimg.cc/3rX10F6V/360-F-205478020-a-ISn-V8bu78-AMHElx-Nfxn4y-SYIf-Dg-IXhj.jpg" alt="Logo" loading="lazy"></a>
+            <img class="logo" src="../assets/Images/logo.png" alt="Logo" loading="lazy"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
